@@ -1,3 +1,7 @@
+html{
+	background-color: rgb(255, 231, 243);
+	font-family:monospace;
+}
 #title{
 	font-size: 26px;
 	line-height: 75px;
@@ -7,7 +11,7 @@
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 300px;
+	width: 400px;
 	height: 75px;
 	font-size: 16px;
 	margin-top: 10px;
@@ -16,16 +20,23 @@
 p{
 	text-align: center;
 }
+button{
+background-color:hotpink;
+color: white;
+}
 
 button.menu-object:active{
 	font-size: 18px;
 	width: 275px;
 	height: 70px;
+	background-color: rgb(255, 32, 144);
 }
 
 button.menu-object:hover:not(:active){
 	font-size: 22px;
 	width: 325px;
 	height: 85px;
+	background-color: rgb(255, 166, 210);
 }
+
 
