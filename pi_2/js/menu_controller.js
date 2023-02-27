@@ -15,4 +15,6 @@ function options(){
 	console.log("Options menu button");
 }
 
-
+function p2(){
+	loadpage("./pi_2/index.html");
+}
