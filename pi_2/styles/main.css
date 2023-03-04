@@ -1,32 +1,45 @@
 html{
 	background-color: rgb(255, 231, 243);
 	font-family:monospace;
-
+	margin-top: 20px;
 }
 
-#title{
-	font-size: 26px;
-	line-height: 75px;
+.main_content{
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+
 }
 
 .menu-object{
-	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 400px;
 	height: 75px;
 	font-size: 16px;
 	margin-top: 10px;
+	grid-column: 2 / 3;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
 }
 
-.cartes{
-grid-column: 4;
-grid-row: 1;
+#cartes{
+	display: flex;
+	justify-content: center;
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+}
+
+#title{
+	font-size: 30px;
+	line-height: 75px;
 }
 
 p{
 	text-align: center;
 }
+
 button{
 background-color:hotpink;
 color: white;
